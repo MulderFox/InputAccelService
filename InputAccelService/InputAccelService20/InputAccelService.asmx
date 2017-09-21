@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="InputAccelService.asmx.cs" Class="InputAccelService20.InputAccelService" %>

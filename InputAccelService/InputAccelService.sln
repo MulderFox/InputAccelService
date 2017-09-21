@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputAccelService", "InputAccelService\InputAccelService.csproj", "{C41C24E2-369B-4B3B-8F11-94FD987B209D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{25B8B014-98E5-42DB-BD57-FE5A89206C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\App_Code.dll = Lib\App_Code.dll
+		Lib\CltMsg.dll = Lib\CltMsg.dll
+		Lib\DataAccess.dll = Lib\DataAccess.dll
+		Lib\Emc.InputAccel.Core.dll = Lib\Emc.InputAccel.Core.dll
+		Lib\Emc.InputAccel.Logging.Attributed.dll = Lib\Emc.InputAccel.Logging.Attributed.dll
+		Lib\Emc.InputAccel.Logging.dll = Lib\Emc.InputAccel.Logging.dll
+		Lib\Emc.InputAccel.Logging.Log.dll = Lib\Emc.InputAccel.Logging.Log.dll
+		Lib\Emc.InputAccel.Logging.Sinks.DB.dll = Lib\Emc.InputAccel.Logging.Sinks.DB.dll
+		Lib\Emc.InputAccel.Logging.Wrapping.dll = Lib\Emc.InputAccel.Logging.Wrapping.dll
+		Lib\Emc.InputAccel.ModuleTrace.dll = Lib\Emc.InputAccel.ModuleTrace.dll
+		Lib\Emc.InputAccel.Workflow.Client.dll = Lib\Emc.InputAccel.Workflow.Client.dll
+		Lib\IACMsg.dll = Lib\IACMsg.dll
+		Lib\InputAccelService.wsdl = Lib\InputAccelService.wsdl
+		Lib\MgmtAdminLib.dll = Lib\MgmtAdminLib.dll
+		Lib\MgmtAdminLibDef.dll = Lib\MgmtAdminLibDef.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputAccelService20", "InputAccelService20\InputAccelService20.csproj", "{8F7031A6-4243-43EC-994F-B22E7EB7897B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C41C24E2-369B-4B3B-8F11-94FD987B209D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41C24E2-369B-4B3B-8F11-94FD987B209D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41C24E2-369B-4B3B-8F11-94FD987B209D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41C24E2-369B-4B3B-8F11-94FD987B209D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7031A6-4243-43EC-994F-B22E7EB7897B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7031A6-4243-43EC-994F-B22E7EB7897B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7031A6-4243-43EC-994F-B22E7EB7897B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7031A6-4243-43EC-994F-B22E7EB7897B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
